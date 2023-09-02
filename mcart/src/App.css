@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.Navbar {
+  height: 110px;
+  border-bottom: 1px solid rgb(11, 11, 11);
+  text-align: center;
+  margin: 0%;
+  background-color: rgb(160, 168, 199);
+  border-top: 1px solid  rgb(160, 168, 199);
+}
+.mCartLogo {
+  border-radius: 40%;
+  padding: 5px;
+  width: 91px;
+  float: left;
+}
+.navbar-ul {
+  margin-left: 500px;
+}
+.navbar-ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 20px;
+  font-size: 22px;
+}
+.navbar-link {
+  text-decoration: none;
+}
+.cartImage img {
+  height: 30px;
+  border-radius: 100%;
+}
+.Navbar2 {
+  border-top: 10px solid rgb(160, 168, 199);
+  background-color: rgb(160, 168, 199);
+  height: 44px;
+  
+}
+.navbar-ul2 li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 90px;
+}
+.searchbar input {
+  width: 265px;
+  height: 34px;
+  border-radius: 20px;
+}
+.navbar-ul2 {
+  margin-top: 0%;
+  margin-left: -11px;
+}
+.searchbar button {
+  height: 30px;
+  border: 1px transparent;
+  border-radius: 100%;
+  background-color: transparent;
+  margin-left: -50px;
+}
+
+.SearchIcon {
+  height: 20px;
+}
+.searchbar button:hover {
+  background-color: aliceblue;
+}
+.searchbar button:active{
+
+  background-color: rgb(203, 220, 231); 
+}
+.Products_body{
+  border: 1px solid black;
+  margin-top: -702px;
+  height: 700px;
+  margin-left: 382px;
+}
+.Cat_filters{
+  border: 1px solid black;
+  margin-top: 25px;
+  height: 700px;
+  margin-left: 5px;
+  width: 376px;
+}
+.Categories-Homepage li{
+  display: inline-block;
+ 
+}
+.Categories{border-radius: 10px;
+  
+  background-color:#61dafb;
+  margin-left: 30px;
+  height: 75px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+}
+.Homepage{
+  height: 1000px;
+  background-color: rgba(213, 198, 198, 0.191);
+}
+.category2
+{
+  background-color: whitesmoke;
+  
+  text-align: center;
+}
+.category1
+{
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.Category
+{
+  padding-top: 1px
+}
+.Brand
+{
+  background-color: whitesmoke;
+  text-align: center;
+}
+.image{
+border: 1px sold rebeccapurple;
+width:200px;
+height:200px
+}
+.category_Images{
+float:left;
+margin:20px;
+  height: 100px;
+  width: 100px;
+
+}
+.detail_images{
+  float: left;
+  margin-top: 128px;
+  margin-left: -71px;
+
+}
+
+
+

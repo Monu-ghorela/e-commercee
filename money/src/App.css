@@ -1,0 +1,241 @@
+.App {
+  text-align: center;
+  background-color: antiquewhite;
+  height: 1000px;
+  width: auto;
+  top: 0%;
+  justify-content: center;
+}
+
+.navbar-ul li {
+  display: inline-block;
+  color: rgb(33, 216, 216);
+  list-style: none;
+  /* margin: auto; */
+  padding-left: 30px;
+}
+
+.navbar {
+  text-align: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 0%;
+  border-bottom: 1px solid rgb(206, 43, 43);
+  background-color: aqua;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  font-size: 20px;
+  height: 50px;
+  margin: auto;
+  /* justify-content: center; */
+}
+#abc {
+  text-decoration: none;
+  color: #8d61fb;
+}
+#abd {
+  text-decoration: none;
+
+  color: #8d61fb;
+}
+#abe {
+  text-decoration: none;
+
+  color: #8d61fb;
+}
+#abf {
+  text-decoration: none;
+
+  color: #8d61fb;
+}
+.SignUp{
+  justify-content: center;
+}
+.login{
+  justify-content: center;
+}
+
+.SignUp input {
+  display: block;
+
+  padding: 10px;
+  margin: 40px 640px;
+  border: 2px solid rgb(117, 14, 201);
+  background-color: rgb(234, 229, 223);
+  border-radius: 7px;
+  width: 200px;
+}
+.login input {
+  display: block;
+
+  padding: 10px;
+  margin: 40px 640px;
+  border: 2px solid rgb(117, 14, 201);
+  background-color: rgb(234, 229, 223);
+  border-radius: 7px;
+  width: 200px;
+}
+.login button {
+  border: 2px solid salmon;
+  width: 100px;
+  height: 50px;
+}
+.SignUp button,
+.AddProduct button {
+  border: 2px solid salmon;
+  width: 100px;
+  height: 50px;
+}
+.footer h2 {
+  background-color: beige;
+  position: fixed;
+  top: 660px;
+  left: 0px;
+  text-align: center;
+  justify-content: center;
+  width: 1550px;
+  font-style: normal;
+  font-weight: 800px;
+  font-family: Arial;
+}
+.nav-right {
+  /* float: right; */
+  /* display: inline-block; */
+  text-align: right;
+  /* font-size: 50px; */
+}
+.profilelogo {
+  border-radius: 50%;
+  padding: 17px;
+  width: 50px;
+  float: left;
+}
+.errorhandle {
+  font-size: 15px;
+  margin-top: -18px;
+  margin-left: -px;
+  display: block;
+  color: red;
+}
+.AddProduct{
+  display: inline-block;
+  justify-content: center;
+  /* margin: auto; */
+}
+.AddProduct input {
+  display: block;
+
+  padding: 10px;
+  margin: 38px 630px;
+  border: 2px solid rgb(117, 14, 201);
+  background-color: rgb(234, 229, 223);
+  border-radius: 7px;
+  width: 200px;
+}
+.productlist-ul {
+  list-style: none;
+  margin: top 20px;
+  margin: 0%;
+}
+.productlist-ul li {
+  display: inline-block;
+  padding: 20px;
+
+  border: 2px #8d61fb solid;
+  width: 80px;
+  margin: 0%;
+}
+.productlist {
+  padding-top: 104px;
+}
+.searchbar {
+  margin: 11px;
+  justify-content: center;
+  height: 125px;
+  width: 118%;
+  background-color: aqua;
+  
+  position: fixed;
+  top: 39px;
+  left: -1%;
+}
+.searchbar input {
+  border-radius: 32px;
+  height: 34px;
+  width: 305px;
+  background-color: transparent;
+  text-align: center;
+  /* position: fixed;
+  left: 626px; */
+}
+.searchbar button {
+  border-radius: 100%;
+  border: transparent;
+  cursor: pointer;
+  background-color: transparent;
+  /* position: absolute;
+  top: 203px;
+  left: 894px; */
+}
+.searchbar button img {
+  background: transparent;
+  height: 23px;
+  border-radius: 100%;
+}
+.searchbar button:hover {
+  border: grey solid;
+  cursor: pointer;
+  background-color: rgb(128, 109, 109);
+}
+.searchbar button:active {
+  background-color: rgb(155, 121, 121);
+}
+#profilePic {
+  border: 1px black solid;
+  height: 120px;
+  width: 100px;
+  text-align: center;
+  margin-left: 680px;
+  background-color: #5cbd95;
+  background-size: cover;
+}
+
+label.label input[type="file"] {
+  position: absolute;
+  top: -1000px;
+  left: -438px;
+}
+.label {
+  font-size: 10px;
+  cursor: pointer;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin: 5px;
+  background: #dddddd;
+  display: inline-block;
+  position: static;
+  width: 16px;
+  height: 12px;
+  top: 202px;
+  left: 811px;
+}
+.label:hover {
+  background: #5cbd95;
+}
+.label:active {
+  background: #9fa1a0;
+}
+.label:invalid + span {
+  color: #000000;
+}
+.label:valid + span {
+  color: #ffffff;
+}
+#showimage {
+  height: 100px;
+  border: 1px black solid;
+  justify-content: center;
+}
